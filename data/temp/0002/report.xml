@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project id="354f47bb-7f08-4f6e-8722-8f43cda59968" name="AppleDevice_AdvancedLogical" reportVersion="5.3.1.0" licenseID="1234567890" containsGarbage="False" extractionType="Logical" NodeCount="12345" ModelCount="12345" xmlns="http://pa.cellebrite.com/report/2.0">
+  <sourceExtractions>
+    <extractionInfo id="0" name="Logical" isCustomName="False" type="Logical" deviceName="Report" fullName="Cellebrite UFED Reports" index="0" IsPartialData="False" />
+  </sourceExtractions>
+  <caseInformation>
+    <field name="Fall-Nummer" isSystem="True" isRequired="False" fieldType="CaseNumber" multipleLines="False">Case 001</field>
+    <field name="Fallname" isSystem="True" isRequired="False" fieldType="CaseName" multipleLines="False">Super important case</field>
+    <field name="Beweisnummer" isSystem="True" isRequired="False" fieldType="EvidenceNumber" multipleLines="False">001</field>
+    <field name="Name d. Ermittlers" isSystem="False" isRequired="False" fieldType="None" multipleLines="False">Sherlock Holmes</field>
+    <field name="Abteilung" isSystem="False" isRequired="False" fieldType="None" multipleLines="False">Department of Investigation</field>
+    <field name="Ort" isSystem="False" isRequired="False" fieldType="None" multipleLines="False">Vienna</field>
+    <field name="Beschuldigter" isSystem="False" isRequired="False" fieldType="None" multipleLines="False">Professor James Moriarty</field>
+    <field name="PIN" isSystem="False" isRequired="False" fieldType="None" multipleLines="False">1337</field>
+  </caseInformation>
+  <metadata section="Additional Fields">
+    <item name="DeviceInfoCreationTime"><![CDATA[10/10/2020 13:37:00]]></item>
+    <item name="UFED_PA_Version"><![CDATA[1.2.3.4]]></item>
+  </metadata>
+  <metadata section="Extraction Data">
+    <item name="DeviceInfoSelectedManufacturer" sourceExtraction="0"><![CDATA[Apple]]></item>
+    <item name="DeviceInfoConnectionType" sourceExtraction="0"><![CDATA[Cable No. 220]]></item>
+    <item name="ExtractionType" sourceExtraction="0"><![CDATA[Logical]]></item>
+    <item name="ProjectStateExtractionId" sourceExtraction="0"><![CDATA[12345678-a931-45a1-b3a1-1234567890A]]></item>
+    <item name="DeviceInfoExtractionStartDateTime" sourceExtraction="0"><![CDATA[10/10/2020 13:37:00]]></item>
+    <item name="DeviceInfoExtractionEndDateTime" sourceExtraction="0"><![CDATA[10/10/2020 14:00:00]]></item>
+  </metadata>
+  <metadata section="Device Info">
+    <item id="78885761-d2fd-4179-84eb-70b4a19b809c" name="DeviceInfoBaseBandVersion" group="iPhone of Prof Moriarty" sourceExtraction="0"><![CDATA[1.2.31]]></item>
+    <item id="dc8707a8-d227-4715-ba39-b59632543eb6" name="DeviceInfoOSVersion" group="iPhone of Prof Moriarty" sourceExtraction="0"><![CDATA[1.2.3]]></item>
+    <item id="0da47208-0b0d-46ad-9eb3-b3ebd9eb8f69" name="DeviceInfoActivationState" group="iPhone of Prof Moriarty" sourceExtraction="0"><![CDATA[Activated]]></item>
+    <item id="579d8e32-8255-4286-870a-93efecce33de" name="DeviceInfoBluetoothDeviceAddress" group="iPhone of Prof Moriarty" sourceExtraction="0"><![CDATA[12:34:56:78:90:ab]]></item>
+    <item id="e56c40e2-40af-4ffc-9197-58a4e0e64e58" name="DeviceInfoSimStatus" group="iPhone of Prof Moriarty" sourceExtraction=""><![CDATA[Ready]]></item>
+    <item id="dbb39d9d-1288-4546-9e71-e7ac5e03b441" name="DeviceInfoWiFiAddress" group="iPhone of Prof Moriarty" sourceExtraction="0"><![CDATA[12:34:56:78:90:ab]]></item>
+    <item id="4db3ebf8-f9b7-4f7a-9912-74e4d26c140b" name="DeviceInfoStorageCapacity" group="iPhone of Prof Moriarty" sourceExtraction="0"><![CDATA[42 GB]]></item>
+    <item id="49381e39-0e49-469e-b1bf-751b0495f652" name="DeviceInfoStorageAvailable" group="iPhone of Prof Moriarty" sourceExtraction="0"><![CDATA[21 GB]]></item>
+    <item id="e0e74416-208e-4aaf-b558-f2156432e65f" name="DeviceInfoTimeZone" group="iPhone of Prof Moriarty" sourceExtraction="0"><![CDATA[Europe/Vienna]]></item>
+    <item id="d0c17d7a-7bdb-4c2d-85a3-6154b649879d" name="DeviceInfoModelNumber" group="iPhone of Prof Moriarty" sourceExtraction="0"><![CDATA[ABCDEF]]></item>
+    <item id="354c50b2-7757-43fe-9ca7-f8cba8c01e4d" name="DeviceInfoOSType" group="Metadata" sourceExtraction="0"><![CDATA[iOS]]></item>
+    <item id="210ab633-3908-4c59-b0b9-da29ec4b1da6" name="DeviceInfoTimeZone" group="Phone Settings" sourceExtraction="0"><![CDATA[Europe/Vienna]]></item>
+    <item id="806912da-1d09-476e-b3e6-5cdd5b5d6791" name="DeviceInfoPhoneDateTime" sourceExtraction="0"><![CDATA[09.09.2020 19:33:13(UTC+0)]]></item>
+    <item id="92880fa1-d8ec-43ba-b3a3-c9d7824ae90a" name="DeviceInfoLocaleLanguage" group="Phone Settings" sourceExtraction="0"><![CDATA[de_AT]]></item>
+    <item id="6bef83e8-bdd8-48ec-92f1-653122740fc1" name="DeviceInfoCloudBackupEnabled" group="Phone Settings" sourceExtraction="0"><![CDATA[True]]></item>
+  </metadata>
+  <images>
+    <image key="FileDump" path="iPhoneBackup.tar" size="12345678" type="File" verify="NoSourceValues" extractionId="2" />
+  </images>
+  <taggedFiles>
+    <file fs="iPhone of Prof Moriarty" fsid="467705e7-f1ea-421a-9ea3-5e75bcd75be7" path="/some/path/on/the/mobile/phone/En-Creative-Commons.ogg" size="4254834" id="b231534c-b43b-477d-863e-5234452345" extractionId="1" deleted="Intact" embedded="false" isrelated="False">
+      <accessInfo>
+        <timestamp name="CreationTime">2020-08-08T15:50:58.000+00:00</timestamp>
+        <timestamp name="ModifyTime">2020-08-08T15:50:58.000+00:00</timestamp>
+      </accessInfo>
+      <metadata section="File">
+        <item name="Local Path"><![CDATA[files\Audio\En-Creative-Commons.ogg]]></item>
+        <item name="SHA256"><![CDATA[]]></item>
+        <item name="MD5"><![CDATA[3d7f880de7e11d0940558da7dc7e709f]]></item>
+        <item name="Tags"><![CDATA[Audio]]></item>
+      </metadata>
+      <metadata section="MetaData">
+        <item name="iPhone-Domain"><![CDATA[AppDomain-com.some-audio-app]]></item>
+        <item name="iPhone-Domain"><![CDATA[AppDomain-com.some-audio-app]]></item>
+        <item name="Datenoffset" group="Offsets"><![CDATA[0x0]]></item>
+        <item name="Erstellungszeit" group="Datum und Uhrzeit"><![CDATA[08.08.2020 15:50:58(UTC+0)]]></item>
+        <item name="Änderungszeit" group="Datum und Uhrzeit"><![CDATA[08.08.2020 15:50:58(UTC+0)]]></item>
+        <item name="Zeitpunkt des letzten Zugriffs" group="Datum und Uhrzeit"><![CDATA[]]></item>
+        <item name="Dateigröße"><![CDATA[4254834 Bytes]]></item>
+        <item name="Segmente"><![CDATA[1]]></item>
+      </metadata>
+    </file>
+    <file fs="iPhone of Prof Moriarty" fsid="01234567-f1ea-421a-9ea3-0123456789ab" path="/another/path/on/the/mobile/phone/4454825783_dbcb233af5_b.jpg" size="215418" id="b231534c-b43b-477d-863e-412342341" extractionId="1" deleted="Intact" embedded="false" isrelated="False">
+      <accessInfo>
+        <timestamp name="CreationTime">2020-08-08T15:50:58.000+00:00</timestamp>
+        <timestamp name="ModifyTime">2020-08-08T15:50:58.000+00:00</timestamp>
+      </accessInfo>
+      <metadata section="File">
+        <item name="Local Path"><![CDATA[files\Image\4454825783_dbcb233af5_b.jpg]]></item>
+        <item name="SHA256"><![CDATA[]]></item>
+        <item name="MD5"><![CDATA[47ed922e769c9063e4ee2d3d7a3dc6c2]]></item>
+        <item name="Tags"><![CDATA[Audio]]></item>
+      </metadata>
+      <metadata section="MetaData">
+        <item name="iPhone-Domain"><![CDATA[AppDomain-com.some-chat-app]]></item>
+        <item name="iPhone-Domain"><![CDATA[AppDomain-com.some-chat-app]]></item>
+        <item name="Datenoffset" group="Offsets"><![CDATA[0x0]]></item>
+        <item name="Erstellungszeit" group="Datum und Uhrzeit"><![CDATA[08.08.2020 15:50:58(UTC+0)]]></item>
+        <item name="Änderungszeit" group="Datum und Uhrzeit"><![CDATA[08.08.2020 15:50:58(UTC+0)]]></item>
+        <item name="Zeitpunkt des letzten Zugriffs" group="Datum und Uhrzeit"><![CDATA[]]></item>
+        <item name="Dateigröße"><![CDATA[(215418 Bytes]]></item>
+        <item name="Segmente"><![CDATA[1]]></item>
+      </metadata>
+    </file>
+  </taggedFiles>
+  <decodedData>
+    <modelType type="Chat">
+      <model type="Chat" id="9423c49d-2696-4534-a54f-b5eec3e92e77" deleted_state="Intact" decoding_confidence="High" isrelated="False" extractionId="1">
+        <field name="UserMapping" type="Boolean">
+          <value type="Boolean"><![CDATA[False]]></value>
+        </field>
+        <field name="Id" type="String">
+          <empty />
+        </field>
+        <field name="StartTime" type="TimeStamp">
+          <value type="TimeStamp">2020-07-01T07:45:53.000+00:00</value>
+        </field>
+        <field name="LastActivity" type="TimeStamp">
+          <value type="TimeStamp">2020-07-30T07:45:53.000+00:00</value>
+        </field>
+        <field name="Source" type="String">
+          <value type="String"><![CDATA[iMessage: +431234567890]]></value>
+        </field>
+        <multiModelField name="Participants" type="Party">
+          <model type="Party" id="b0df814c-22c8-4e2b-adcf-e17deb48d7d6" deleted_state="Unknown" decoding_confidence="High" isrelated="False" extractionId="1">
+            <field name="UserMapping" type="Boolean">
+              <value type="Boolean"><![CDATA[False]]></value>
+            </field>
+            <field name="Identifier" type="String">
+              <value type="String"><![CDATA[+431234567890]]></value>
+            </field>
+            <field name="Role" type="PartyRole">
+              <value type="PartyRole"><![CDATA[General]]></value>
+            </field>
+            <field name="Status" type="PartyStatus">
+              <value type="PartyStatus"><![CDATA[Unknown]]></value>
+            </field>
+            <field name="Name" type="String" IsInferred="True">
+              <value type="String"><![CDATA[Prof. Moriarty]]></value>
+            </field>
+            <field name="IPAddress" type="String">
+              <empty />
+            </field>
+            <multiField name="IPAddresses" type="String" />
+            <field name="DateDelivered" type="TimeStamp">
+              <empty />
+            </field>
+            <field name="DateRead" type="TimeStamp">
+              <empty />
+            </field>
+            <field name="DatePlayed" type="TimeStamp">
+              <empty />
+            </field>
+            <field name="Distance" type="Double">
+              <empty />
+            </field>
+            <field name="DistanceTimeStamp" type="TimeStamp">
+              <empty />
+            </field>
+            <field name="IsPhoneOwner" type="Boolean">
+              <value type="Boolean"><![CDATA[True]]></value>
+            </field>
+          </model>
+          <model type="Party" id="9f90ba23-46d1-4e08-8e58-664564565433" deleted_state="Unknown" decoding_confidence="High" isrelated="False" extractionId="1">
+            <field name="UserMapping" type="Boolean">
+              <value type="Boolean"><![CDATA[False]]></value>
+            </field>
+            <field name="Identifier" type="String">
+              <value type="String"><![CDATA[+43123987654321]]></value>
+            </field>
+            <field name="Role" type="PartyRole">
+              <value type="PartyRole"><![CDATA[General]]></value>
+            </field>
+            <field name="Status" type="PartyStatus">
+              <value type="PartyStatus"><![CDATA[Unknown]]></value>
+            </field>
+            <field name="Name" type="String" IsInferred="True">
+              <value type="String"><![CDATA[Dr. Evil]]></value>
+            </field>
+            <field name="IPAddress" type="String">
+              <empty />
+            </field>
+            <multiField name="IPAddresses" type="String" />
+            <field name="DateDelivered" type="TimeStamp">
+              <empty />
+            </field>
+            <field name="DateRead" type="TimeStamp">
+              <empty />
+            </field>
+            <field name="DatePlayed" type="TimeStamp">
+              <empty />
+            </field>
+            <field name="Distance" type="Double">
+              <empty />
+            </field>
+            <field name="DistanceTimeStamp" type="TimeStamp">
+              <empty />
+            </field>
+            <field name="IsPhoneOwner" type="Boolean">
+              <empty />
+            </field>
+          </model>
+        </multiModelField>
+        <multiModelField name="Messages" type="InstantMessage">
+          <model type="InstantMessage" id="8204cd26-21cc-4510-9bc2-543253465415" deleted_state="Intact" decoding_confidence="High" isrelated="False" extractionId="1">
+            <field name="UserMapping" type="Boolean">
+              <value type="Boolean"><![CDATA[False]]></value>
+            </field>
+            <modelField name="From" type="Party">
+              <model type="Party" id="2affbd71-3369-4375-8da7-67674563456" deleted_state="Unknown" decoding_confidence="High" isrelated="False" extractionId="1">
+                <field name="UserMapping" type="Boolean">
+                  <value type="Boolean"><![CDATA[False]]></value>
+                </field>
+                <field name="Identifier" type="String">
+                  <value type="String"><![CDATA[+43123987654321]]></value>
+                </field>
+                <field name="Role" type="PartyRole">
+                  <value type="PartyRole"><![CDATA[From]]></value>
+                </field>
+                <field name="Status" type="PartyStatus">
+                  <value type="PartyStatus"><![CDATA[Unknown]]></value>
+                </field>
+                <field name="Name" type="String" IsInferred="True">
+                  <value type="String"><![CDATA[Dr. Evil]]></value>
+                </field>
+                <field name="IPAddress" type="String">
+                  <empty />
+                </field>
+                <multiField name="IPAddresses" type="String" />
+                <field name="DateDelivered" type="TimeStamp">
+                  <empty />
+                </field>
+                <field name="DateRead" type="TimeStamp">
+                  <empty />
+                </field>
+                <field name="DatePlayed" type="TimeStamp">
+                  <empty />
+                </field>
+                <field name="Distance" type="Double">
+                  <empty />
+                </field>
+                <field name="DistanceTimeStamp" type="TimeStamp">
+                  <empty />
+                </field>
+                <field name="IsPhoneOwner" type="Boolean">
+                  <empty />
+                </field>
+              </model>
+            </modelField>
+            <multiModelField name="To" type="Party" />
+            <field name="Subject" type="String">
+              <empty />
+            </field>
+            <field name="Body" type="String">
+              <value type="String"><![CDATA[Lets plan a super crime!]]></value>
+            </field>
+            <field name="SourceApplication" type="String">
+              <value type="String"><![CDATA[iMessage: +431234567890]]></value>
+            </field>
+            <field name="TimeStamp" type="TimeStamp">
+              <value type="TimeStamp">2020-07-02T07:45:53.000+00:00</value>
+            </field>
+            <field name="DateRead" type="TimeStamp">
+              <value type="TimeStamp">2020-07-03T08:03:28.000+00:00</value>
+            </field>
+            <field name="DateDelivered" type="TimeStamp">
+              <empty />
+            </field>
+            <modelField name="Attachment" type="Attachment">
+              <empty />
+            </modelField>
+            <multiModelField name="Attachments" type="Attachment" />
+            <modelField name="Position" type="Coordinate">
+              <empty />
+            </modelField>
+            <field name="PositionAddress" type="String">
+              <empty />
+            </field>
+            <field name="Status" type="MessageStatus">
+              <value type="MessageStatus"><![CDATA[Read]]></value>
+            </field>
+            <multiModelField name="SharedContacts" type="Contact" />
+            <field name="Label" type="Label">
+              <empty />
+            </field>
+            <field name="Platform" type="Platform">
+              <empty />
+            </field>
+          </model>
+          <model type="InstantMessage" id="8204cd26-21cc-4510-9bc2-845644567466" deleted_state="Intact" decoding_confidence="High" isrelated="False" extractionId="1">
+            <field name="UserMapping" type="Boolean">
+              <value type="Boolean"><![CDATA[False]]></value>
+            </field>
+            <modelField name="From" type="Party">
+              <model type="Party" id="2affbd71-3369-4375-8da7-7654545656757" deleted_state="Unknown" decoding_confidence="High" isrelated="False" extractionId="1">
+                <field name="UserMapping" type="Boolean">
+                  <value type="Boolean"><![CDATA[False]]></value>
+                </field>
+                <field name="Identifier" type="String">
+                  <value type="String"><![CDATA[+431234567890]]></value>
+                </field>
+                <field name="Role" type="PartyRole">
+                  <value type="PartyRole"><![CDATA[From]]></value>
+                </field>
+                <field name="Status" type="PartyStatus">
+                  <value type="PartyStatus"><![CDATA[Unknown]]></value>
+                </field>
+                <field name="Name" type="String" IsInferred="True">
+                  <value type="String"><![CDATA[Prof. Moriarty]]></value>
+                </field>
+                <field name="IPAddress" type="String">
+                  <empty />
+                </field>
+                <multiField name="IPAddresses" type="String" />
+                <field name="DateDelivered" type="TimeStamp">
+                  <empty />
+                </field>
+                <field name="DateRead" type="TimeStamp">
+                  <empty />
+                </field>
+                <field name="DatePlayed" type="TimeStamp">
+                  <empty />
+                </field>
+                <field name="Distance" type="Double">
+                  <empty />
+                </field>
+                <field name="DistanceTimeStamp" type="TimeStamp">
+                  <empty />
+                </field>
+                <field name="IsPhoneOwner" type="Boolean">
+                  <empty />
+                </field>
+              </model>
+            </modelField>
+            <multiModelField name="To" type="Party" />
+            <field name="Subject" type="String">
+              <empty />
+            </field>
+            <field name="Body" type="String">
+              <value type="String"><![CDATA[Sure! But please use Signal for safer communication.]]></value>
+            </field>
+            <field name="SourceApplication" type="String">
+              <value type="String"><![CDATA[iMessage: +431234567890]]></value>
+            </field>
+            <field name="TimeStamp" type="TimeStamp">
+              <value type="TimeStamp">2020-07-04T07:45:53.000+00:00</value>
+            </field>
+            <field name="DateRead" type="TimeStamp">
+              <value type="TimeStamp">2020-07-05T08:03:28.000+00:00</value>
+            </field>
+            <field name="DateDelivered" type="TimeStamp">
+              <empty />
+            </field>
+            <modelField name="Attachment" type="Attachment">
+              <empty />
+            </modelField>
+            <multiModelField name="Attachments" type="Attachment" />
+            <modelField name="Position" type="Coordinate">
+              <empty />
+            </modelField>
+            <field name="PositionAddress" type="String">
+              <empty />
+            </field>
+            <field name="Status" type="MessageStatus">
+              <value type="MessageStatus"><![CDATA[Read]]></value>
+            </field>
+            <multiModelField name="SharedContacts" type="Contact" />
+            <field name="Label" type="Label">
+              <empty />
+            </field>
+            <field name="Platform" type="Platform">
+              <empty />
+            </field>
+          </model>
+        </multiModelField>
+      </model>
+      <model type="Chat" id="9423c49d-2696-4534-a54f-536535345563" deleted_state="Intact" decoding_confidence="High" isrelated="False" extractionId="1">
+        <field name="UserMapping" type="Boolean">
+          <value type="Boolean"><![CDATA[False]]></value>
+        </field>
+        <field name="Id" type="String">
+          <empty />
+        </field>
+        <field name="StartTime" type="TimeStamp">
+          <value type="TimeStamp">2020-08-01T07:45:53.000+00:00</value>
+        </field>
+        <field name="LastActivity" type="TimeStamp">
+          <value type="TimeStamp">2020-08-30T07:45:53.000+00:00</value>
+        </field>
+        <field name="Source" type="String">
+          <value type="String"><![CDATA[iMessage: +431234567890]]></value>
+        </field>
+        <multiModelField name="Participants" type="Party">
+          <model type="Party" id="b0df814c-22c8-4e2b-adcf-e17deb48d7d6" deleted_state="Unknown" decoding_confidence="High" isrelated="False" extractionId="1">
+            <field name="UserMapping" type="Boolean">
+              <value type="Boolean"><![CDATA[False]]></value>
+            </field>
+            <field name="Identifier" type="String">
+              <value type="String"><![CDATA[+431234567890]]></value>
+            </field>
+            <field name="Role" type="PartyRole">
+              <value type="PartyRole"><![CDATA[General]]></value>
+            </field>
+            <field name="Status" type="PartyStatus">
+              <value type="PartyStatus"><![CDATA[Unknown]]></value>
+            </field>
+            <field name="Name" type="String" IsInferred="True">
+              <value type="String"><![CDATA[Prof. Moriarty]]></value>
+            </field>
+            <field name="IPAddress" type="String">
+              <empty />
+            </field>
+            <multiField name="IPAddresses" type="String" />
+            <field name="DateDelivered" type="TimeStamp">
+              <empty />
+            </field>
+            <field name="DateRead" type="TimeStamp">
+              <empty />
+            </field>
+            <field name="DatePlayed" type="TimeStamp">
+              <empty />
+            </field>
+            <field name="Distance" type="Double">
+              <empty />
+            </field>
+            <field name="DistanceTimeStamp" type="TimeStamp">
+              <empty />
+            </field>
+            <field name="IsPhoneOwner" type="Boolean">
+              <value type="Boolean"><![CDATA[True]]></value>
+            </field>
+          </model>
+          <model type="Party" id="9f90ba23-46d1-4e08-8e58-478954321434" deleted_state="Unknown" decoding_confidence="High" isrelated="False" extractionId="1">
+            <field name="UserMapping" type="Boolean">
+              <value type="Boolean"><![CDATA[False]]></value>
+            </field>
+            <field name="Identifier" type="String">
+              <value type="String"><![CDATA[+4312311111111]]></value>
+            </field>
+            <field name="Role" type="PartyRole">
+              <value type="PartyRole"><![CDATA[General]]></value>
+            </field>
+            <field name="Status" type="PartyStatus">
+              <value type="PartyStatus"><![CDATA[Unknown]]></value>
+            </field>
+            <field name="Name" type="String" IsInferred="True">
+              <value type="String"><![CDATA[Daisy Moriarty]]></value>
+            </field>
+            <field name="IPAddress" type="String">
+              <empty />
+            </field>
+            <multiField name="IPAddresses" type="String" />
+            <field name="DateDelivered" type="TimeStamp">
+              <empty />
+            </field>
+            <field name="DateRead" type="TimeStamp">
+              <empty />
+            </field>
+            <field name="DatePlayed" type="TimeStamp">
+              <empty />
+            </field>
+            <field name="Distance" type="Double">
+              <empty />
+            </field>
+            <field name="DistanceTimeStamp" type="TimeStamp">
+              <empty />
+            </field>
+            <field name="IsPhoneOwner" type="Boolean">
+              <empty />
+            </field>
+          </model>
+        </multiModelField>
+        <multiModelField name="Messages" type="InstantMessage">
+          <model type="InstantMessage" id="8204cd26-21cc-4510-9bc2-809743567453" deleted_state="Intact" decoding_confidence="High" isrelated="False" extractionId="1">
+            <field name="UserMapping" type="Boolean">
+              <value type="Boolean"><![CDATA[False]]></value>
+            </field>
+            <modelField name="From" type="Party">
+              <model type="Party" id="2affbd71-3369-4375-8da7-564675423223" deleted_state="Unknown" decoding_confidence="High" isrelated="False" extractionId="1">
+                <field name="UserMapping" type="Boolean">
+                  <value type="Boolean"><![CDATA[False]]></value>
+                </field>
+                <field name="Identifier" type="String">
+                  <value type="String"><![CDATA[+4312311111111]]></value>
+                </field>
+                <field name="Role" type="PartyRole">
+                  <value type="PartyRole"><![CDATA[From]]></value>
+                </field>
+                <field name="Status" type="PartyStatus">
+                  <value type="PartyStatus"><![CDATA[Unknown]]></value>
+                </field>
+                <field name="Name" type="String" IsInferred="True">
+                  <value type="String"><![CDATA[Daisy Moriarty]]></value>
+                </field>
+                <field name="IPAddress" type="String">
+                  <empty />
+                </field>
+                <multiField name="IPAddresses" type="String" />
+                <field name="DateDelivered" type="TimeStamp">
+                  <empty />
+                </field>
+                <field name="DateRead" type="TimeStamp">
+                  <empty />
+                </field>
+                <field name="DatePlayed" type="TimeStamp">
+                  <empty />
+                </field>
+                <field name="Distance" type="Double">
+                  <empty />
+                </field>
+                <field name="DistanceTimeStamp" type="TimeStamp">
+                  <empty />
+                </field>
+                <field name="IsPhoneOwner" type="Boolean">
+                  <empty />
+                </field>
+              </model>
+            </modelField>
+            <multiModelField name="To" type="Party" />
+            <field name="Subject" type="String">
+              <empty />
+            </field>
+            <field name="Body" type="String">
+              <value type="String"><![CDATA[Look at that cute goat!]]></value>
+            </field>
+            <field name="SourceApplication" type="String">
+              <value type="String"><![CDATA[iMessage: +431234567890]]></value>
+            </field>
+            <field name="TimeStamp" type="TimeStamp">
+              <value type="TimeStamp">2020-08-02T07:45:53.000+00:00</value>
+            </field>
+            <field name="DateRead" type="TimeStamp">
+              <value type="TimeStamp">2020-08-03T08:03:28.000+00:00</value>
+            </field>
+            <field name="DateDelivered" type="TimeStamp">
+              <empty />
+            </field>
+            <modelField name="Attachment" type="Attachment">
+              <empty />
+            </modelField>
+            <multiModelField name="Attachments" type="Attachment">
+              <model type="Attachment" id="99ed82d5-d756-425a-8c5f-e2a3e241984e" deleted_state="Intact" decoding_confidence="High" isrelated="False" extractionId="1"  file_id="b231534c-b43b-477d-863e-412342341">
+                <field name="UserMapping" type="Boolean">
+                  <value type="Boolean"><![CDATA[False]]></value>
+                </field>
+                <field name="Filename" type="String">
+                  <value type="String"><![CDATA[4454825783_dbcb233af5_b.jpg]]></value>
+                </field>
+                <field name="ContentType" type="String">
+                  <value type="String"><![CDATA[image/jpg]]></value>
+                </field>
+                <field name="Charset" type="String">
+                  <empty />
+                </field>
+                <dataField name="Data" type="MemoryRange">
+                  <source length="11159817" />
+                </dataField>
+                <multiField name="MetaData" type="String" />
+                <field name="URL" type="String">
+                  <empty />
+                </field>
+                <field name="Title" type="String">
+                  <empty />
+                </field>
+              </model>
+            </multiModelField>
+            <modelField name="Position" type="Coordinate">
+              <empty />
+            </modelField>
+            <field name="PositionAddress" type="String">
+              <empty />
+            </field>
+            <field name="Status" type="MessageStatus">
+              <value type="MessageStatus"><![CDATA[Read]]></value>
+            </field>
+            <multiModelField name="SharedContacts" type="Contact" />
+            <field name="Label" type="Label">
+              <empty />
+            </field>
+            <field name="Platform" type="Platform">
+              <empty />
+            </field>
+          </model>
+          <model type="InstantMessage" id="8204cd26-21cc-4510-9bc2-245245234523" deleted_state="Intact" decoding_confidence="High" isrelated="False" extractionId="1">
+            <field name="UserMapping" type="Boolean">
+              <value type="Boolean"><![CDATA[False]]></value>
+            </field>
+            <modelField name="From" type="Party">
+              <model type="Party" id="2affbd71-3369-4375-8da7-426546354635" deleted_state="Unknown" decoding_confidence="High" isrelated="False" extractionId="1">
+                <field name="UserMapping" type="Boolean">
+                  <value type="Boolean"><![CDATA[False]]></value>
+                </field>
+                <field name="Identifier" type="String">
+                  <value type="String"><![CDATA[+431234567890]]></value>
+                </field>
+                <field name="Role" type="PartyRole">
+                  <value type="PartyRole"><![CDATA[From]]></value>
+                </field>
+                <field name="Status" type="PartyStatus">
+                  <value type="PartyStatus"><![CDATA[Unknown]]></value>
+                </field>
+                <field name="Name" type="String" IsInferred="True">
+                  <value type="String"><![CDATA[Prof. Moriarty]]></value>
+                </field>
+                <field name="IPAddress" type="String">
+                  <empty />
+                </field>
+                <multiField name="IPAddresses" type="String" />
+                <field name="DateDelivered" type="TimeStamp">
+                  <empty />
+                </field>
+                <field name="DateRead" type="TimeStamp">
+                  <empty />
+                </field>
+                <field name="DatePlayed" type="TimeStamp">
+                  <empty />
+                </field>
+                <field name="Distance" type="Double">
+                  <empty />
+                </field>
+                <field name="DistanceTimeStamp" type="TimeStamp">
+                  <empty />
+                </field>
+                <field name="IsPhoneOwner" type="Boolean">
+                  <empty />
+                </field>
+              </model>
+            </modelField>
+            <multiModelField name="To" type="Party" />
+            <field name="Subject" type="String">
+              <empty />
+            </field>
+            <field name="Body" type="String">
+              <value type="String"><![CDATA[So cute! <3]]></value>
+            </field>
+            <field name="SourceApplication" type="String">
+              <value type="String"><![CDATA[iMessage: +431234567890]]></value>
+            </field>
+            <field name="TimeStamp" type="TimeStamp">
+              <value type="TimeStamp">2020-08-04T07:45:53.000+00:00</value>
+            </field>
+            <field name="DateRead" type="TimeStamp">
+              <value type="TimeStamp">2020-08-05T08:03:28.000+00:00</value>
+            </field>
+            <field name="DateDelivered" type="TimeStamp">
+              <empty />
+            </field>
+            <modelField name="Attachment" type="Attachment">
+              <empty />
+            </modelField>
+            <multiModelField name="Attachments" type="Attachment" />
+            <modelField name="Position" type="Coordinate">
+              <empty />
+            </modelField>
+            <field name="PositionAddress" type="String">
+              <empty />
+            </field>
+            <field name="Status" type="MessageStatus">
+              <value type="MessageStatus"><![CDATA[Read]]></value>
+            </field>
+            <multiModelField name="SharedContacts" type="Contact" />
+            <field name="Label" type="Label">
+              <empty />
+            </field>
+            <field name="Platform" type="Platform">
+              <empty />
+            </field>
+          </model>
+        </multiModelField>
+      </model>
+    </modelType>
+    <modelType type="Email">
+      <model type="Email" id="3f761ed2-ebc3-4e1f-96c0-76212af84085" deleted_state="Intact" decoding_confidence="High" isrelated="False" extractionId="1">
+        <field name="UserMapping" type="Boolean">
+          <value type="Boolean"><![CDATA[False]]></value>
+        </field>
+        <field name="Folder" type="String">
+          <empty />
+        </field>
+        <field name="Status" type="MessageStatus">
+          <empty />
+        </field>
+        <modelField name="From" type="Party">
+          <model type="Party" id="a746a565-5314-4dac-a5fe-fff03a51b576" deleted_state="Intact" decoding_confidence="High" isrelated="False" extractionId="1">
+            <field name="UserMapping" type="Boolean">
+              <value type="Boolean"><![CDATA[False]]></value>
+            </field>
+            <field name="Identifier" type="String">
+              <value type="String"><![CDATA[moriarty@thisdomaindoesnotexist.com]]></value>
+            </field>
+            <field name="Role" type="PartyRole">
+              <value type="PartyRole"><![CDATA[General]]></value>
+            </field>
+            <field name="Status" type="PartyStatus">
+              <empty />
+            </field>
+            <field name="Name" type="String" IsInferred="True">
+              <value type="String"><![CDATA[Prof. James Moriarty]]></value>
+            </field>
+            <field name="IPAddress" type="String">
+              <empty />
+            </field>
+            <multiField name="IPAddresses" type="String" />
+            <field name="DateDelivered" type="TimeStamp">
+              <empty />
+            </field>
+            <field name="DateRead" type="TimeStamp">
+              <empty />
+            </field>
+            <field name="DatePlayed" type="TimeStamp">
+              <empty />
+            </field>
+            <field name="Distance" type="Double">
+              <empty />
+            </field>
+            <field name="DistanceTimeStamp" type="TimeStamp">
+              <empty />
+            </field>
+            <field name="IsPhoneOwner" type="Boolean">
+              <empty />
+            </field>
+          </model>
+        </modelField>
+        <multiModelField name="To" type="Party">
+          <model type="Party" id="c0286854-5417-4e08-ba46-e6ea3cc63d50" deleted_state="Intact" decoding_confidence="High" isrelated="False" extractionId="1">
+            <field name="UserMapping" type="Boolean">
+              <value type="Boolean"><![CDATA[False]]></value>
+            </field>
+            <field name="Identifier" type="String">
+              <value type="String"><![CDATA[everybody@theinternet.com]]></value>
+            </field>
+            <field name="Role" type="PartyRole">
+              <empty />
+            </field>
+            <field name="Status" type="PartyStatus">
+              <empty />
+            </field>
+            <field name="Name" type="String">
+              <value type="String"><![CDATA[Everybody]]></value>
+            </field>
+            <field name="IPAddress" type="String">
+              <empty />
+            </field>
+            <multiField name="IPAddresses" type="String" />
+            <field name="DateDelivered" type="TimeStamp">
+              <empty />
+            </field>
+            <field name="DateRead" type="TimeStamp">
+              <empty />
+            </field>
+            <field name="DatePlayed" type="TimeStamp">
+              <empty />
+            </field>
+            <field name="Distance" type="Double">
+              <empty />
+            </field>
+            <field name="DistanceTimeStamp" type="TimeStamp">
+              <empty />
+            </field>
+            <field name="IsPhoneOwner" type="Boolean">
+              <empty />
+            </field>
+          </model>
+        </multiModelField>
+        <multiModelField name="Cc" type="Party" />
+        <multiModelField name="Bcc" type="Party" />
+        <field name="Subject" type="String">
+          <value type="String"><![CDATA[I am the master of the universe!]]></value>
+        </field>
+        <field name="Body" type="String">
+          <value type="String"><![CDATA[Pray to me!]]></value>
+        </field>
+        <field name="TimeStamp" type="TimeStamp">
+          <value type="TimeStamp">2020-08-30T19:27:58.977+00:00</value>
+        </field>
+        <field name="Priority" type="MailPriority">
+          <empty />
+        </field>
+        <multiModelField name="Attachments" type="Attachment" />
+        <field name="Source" type="String">
+          <value type="String"><![CDATA[Apple Mail]]></value>
+        </field>
+        <field name="Account" type="String">
+          <empty />
+        </field>
+        <multiField name="Labels" type="String" />
+        <field name="Snippet" type="String">
+          <empty />
+        </field>
+      </model>
+    </modelType>
+    <modelType type="InstalledApplication">
+      <model type="InstalledApplication" id="775ae8e5-35d4-4a34-8944-565662342354" deleted_state="Intact" decoding_confidence="High" isrelated="False" extractionId="1">
+        <field name="UserMapping" type="Boolean">
+          <value type="Boolean"><![CDATA[False]]></value>
+        </field>
+        <field name="Name" type="String">
+          <value type="String"><![CDATA[group.com.apple.Maps]]></value>
+        </field>
+        <field name="Version" type="String">
+          <empty />
+        </field>
+        <field name="Description" type="String">
+          <empty />
+        </field>
+        <field name="Identifier" type="String">
+          <value type="String"><![CDATA[group.com.apple.Maps]]></value>
+        </field>
+        <field name="AppGUID" type="String">
+          <empty />
+        </field>
+        <field name="PurchaseDate" type="TimeStamp">
+          <empty />
+        </field>
+        <field name="DeletedDate" type="TimeStamp">
+          <empty />
+        </field>
+        <multiField name="Permissions" type="PermissionCategory" />
+        <field name="Copyright" type="String">
+          <empty />
+        </field>
+        <field name="DecodingStatus" type="DecodingStatus">
+          <value type="DecodingStatus"><![CDATA[NotDecoded]]></value>
+        </field>
+        <multiModelField name="Users" type="User" />
+      </model>
+      <model type="InstalledApplication" id="775ae8e5-35d4-4a34-8944-120972346533" deleted_state="Intact" decoding_confidence="High" isrelated="False" extractionId="1">
+        <field name="UserMapping" type="Boolean">
+          <value type="Boolean"><![CDATA[False]]></value>
+        </field>
+        <field name="Name" type="String">
+          <value type="String"><![CDATA[FaceTime]]></value>
+        </field>
+        <field name="Version" type="String">
+          <empty />
+        </field>
+        <field name="Description" type="String">
+          <empty />
+        </field>
+        <field name="Identifier" type="String">
+          <value type="String"><![CDATA[group.com.apple.facetime]]></value>
+        </field>
+        <field name="AppGUID" type="String">
+          <value type="String"><![CDATA[Applications]]></value>
+        </field>
+        <field name="PurchaseDate" type="TimeStamp">
+          <empty />
+        </field>
+        <field name="DeletedDate" type="TimeStamp">
+          <empty />
+        </field>
+        <multiField name="Permissions" type="PermissionCategory" />
+        <field name="Copyright" type="String">
+          <empty />
+        </field>
+        <field name="DecodingStatus" type="DecodingStatus">
+          <value type="DecodingStatus"><![CDATA[NotDecoded]]></value>
+        </field>
+        <multiModelField name="Users" type="User" />
+      </model>
+    </modelType>
+    <modelType type="Contact">
+      <model type="Contact" id="6b06610b-42a0-418b-ba0a-401e4a9ca9e1" deleted_state="Intact" decoding_confidence="High" isrelated="False" extractionId="1">
+        <field name="UserMapping" type="Boolean">
+          <value type="Boolean"><![CDATA[False]]></value>
+        </field>
+        <field name="Name" type="String">
+          <value type="String"><![CDATA[Dr. Evil]]></value>
+        </field>
+        <multiModelField name="Photos" type="ContactPhoto" />
+        <multiModelField name="Entries" type="ContactEntry">
+          <model type="EmailAddress" id="063865ea-12b9-4b63-b85f-d45c18cbdf43" deleted_state="Intact" decoding_confidence="High" isrelated="False" extractionId="1">
+            <field name="UserMapping" type="Boolean">
+              <value type="Boolean"><![CDATA[False]]></value>
+            </field>
+            <field name="Category" type="String">
+              <empty />
+            </field>
+            <field name="Value" type="String">
+              <value type="String"><![CDATA[dr.evil@thisdomaindoesnotexist.com]]></value>
+            </field>
+            <field name="Domain" type="String">
+              <value type="String"><![CDATA[E-Mail]]></value>
+            </field>
+          </model>
+          <model type="PhoneNumber" id="3fa8e582-a323-4735-b434-32418d37ecba" deleted_state="Intact" decoding_confidence="High" isrelated="False" extractionId="1">
+            <field name="UserMapping" type="Boolean">
+              <value type="Boolean"><![CDATA[False]]></value>
+            </field>
+            <field name="Category" type="String">
+              <value type="String"><![CDATA[Mobiltelefon]]></value>
+            </field>
+            <field name="Value" type="String">
+              <value type="String"><![CDATA[+43123987654321]]></value>
+            </field>
+            <field name="Domain" type="String">
+              <value type="String"><![CDATA[Telefon]]></value>
+            </field>
+          </model>
+        </multiModelField>
+        <multiField name="Notes" type="String">
+          <empty />
+        </multiField>
+        <multiModelField name="Addresses" type="StreetAddress" />
+        <multiModelField name="Organizations" type="Organization" />
+        <field name="Group" type="String">
+          <empty />
+        </field>
+        <field name="Source" type="String">
+          <empty />
+        </field>
+        <field name="Type" type="ContactType">
+          <empty />
+        </field>
+        <field name="TimeContacted" type="TimeStamp">
+          <empty />
+        </field>
+        <field name="TimeCreated" type="TimeStamp">
+          <value type="TimeStamp">2020-06-01T18:09:56.000+00:00</value>
+        </field>
+        <field name="TimeModified" type="TimeStamp">
+          <value type="TimeStamp">2020-06-01T18:09:56.000+00:00</value>
+        </field>
+        <field name="TimesContacted" type="Int32">
+          <empty />
+        </field>
+      </model>
+      <model type="Contact" id="6b06610b-42a0-418b-ba0a-423423423423" deleted_state="Intact" decoding_confidence="High" isrelated="False" extractionId="1">
+        <field name="UserMapping" type="Boolean">
+          <value type="Boolean"><![CDATA[False]]></value>
+        </field>
+        <field name="Name" type="String">
+          <value type="String"><![CDATA[Daisy Moriarty]]></value>
+        </field>
+        <multiModelField name="Photos" type="ContactPhoto" />
+        <multiModelField name="Entries" type="ContactEntry">
+          <model type="EmailAddress" id="063865ea-12b9-4b63-b85f-d45c18cbdf43" deleted_state="Intact" decoding_confidence="High" isrelated="False" extractionId="1">
+            <field name="UserMapping" type="Boolean">
+              <value type="Boolean"><![CDATA[False]]></value>
+            </field>
+            <field name="Category" type="String">
+              <empty />
+            </field>
+            <field name="Value" type="String">
+              <value type="String"><![CDATA[daisy.moriarty@thisdomaindoesnotexist.com]]></value>
+            </field>
+            <field name="Domain" type="String">
+              <value type="String"><![CDATA[E-Mail]]></value>
+            </field>
+          </model>
+          <model type="PhoneNumber" id="3fa8e582-a323-4735-b434-32418d37ecba" deleted_state="Intact" decoding_confidence="High" isrelated="False" extractionId="1">
+            <field name="UserMapping" type="Boolean">
+              <value type="Boolean"><![CDATA[False]]></value>
+            </field>
+            <field name="Category" type="String">
+              <value type="String"><![CDATA[Mobiltelefon]]></value>
+            </field>
+            <field name="Value" type="String">
+              <value type="String"><![CDATA[+4312311111111]]></value>
+            </field>
+            <field name="Domain" type="String">
+              <value type="String"><![CDATA[Telefon]]></value>
+            </field>
+          </model>
+        </multiModelField>
+        <multiField name="Notes" type="String">
+          <empty />
+        </multiField>
+        <multiModelField name="Addresses" type="StreetAddress" />
+        <multiModelField name="Organizations" type="Organization" />
+        <field name="Group" type="String">
+          <empty />
+        </field>
+        <field name="Source" type="String">
+          <empty />
+        </field>
+        <field name="Type" type="ContactType">
+          <empty />
+        </field>
+        <field name="TimeContacted" type="TimeStamp">
+          <empty />
+        </field>
+        <field name="TimeCreated" type="TimeStamp">
+          <value type="TimeStamp">2020-06-01T18:09:56.000+00:00</value>
+        </field>
+        <field name="TimeModified" type="TimeStamp">
+          <value type="TimeStamp">2020-06-01T18:09:56.000+00:00</value>
+        </field>
+        <field name="TimesContacted" type="Int32">
+          <empty />
+        </field>
+      </model>
+    </modelType>
+  </decodedData>
+</project>

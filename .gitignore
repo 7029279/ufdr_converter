@@ -2,8 +2,12 @@
 __pycache__/
 *.pyc
 
-data/out/
-data/temp/
+data/out/*
+!data/out/0002/
+!data/out/0002/**
+data/temp/*
+!data/temp/0002/
+!data/temp/0002/**
 data/in/*.ufdr
 !data/in/iphone.ufdr
 
